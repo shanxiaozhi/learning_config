@@ -21,10 +21,10 @@ spring:
   profiles: dev
   application:
     name:  base-zuul-gateway    # zuul网关服务在eureka中的服务名
-  security:   # zuul网关服务的用户认证
-    user:
-      name: admin
-      password: a
+  #security:   # zuul网关服务的用户认证
+  #  user:
+  #    name: admin
+  #    password: a
 
 
 zuul:
